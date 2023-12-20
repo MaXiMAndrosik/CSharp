@@ -17,3 +17,10 @@ double product3 = i1*d;
 Console.WriteLine(product1);
 Console.WriteLine(product2);
 Console.WriteLine(product3);
+
+int div1 = i1/i2;
+Console.WriteLine(div1);
+
+d = 6;
+double div2 = i1/d;
+Console.WriteLine(div2);
