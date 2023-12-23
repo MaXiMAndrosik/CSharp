@@ -14,7 +14,7 @@
 //      {max = num2; min = num1;
 //     Console.WriteLine("Первое число '"+num1+"' меньше чем второе число '"+num2+"'");}
 // if (num1==num2)
-//      Console.WriteLine("Введенные числа равны '"+num1+"'");
+//      Console.WriteLine("Введенные числа равны "+num1+"'");
 
 // ЗАДАЧА 2
 
@@ -34,10 +34,22 @@
 
 // ЗАДАЧА 3
 
+// Console.Clear();
+// Console.Write("Введите число: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+// if (number%2 == 0)
+//     Console.Write("Число '"+number+"' чётное");
+// else
+//     Console.Write("Число '"+number+"' нёчетное");
+
+// ЗАДАЧА 4
+
 Console.Clear();
 Console.Write("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
-if (number%2 == 0)
-    Console.Write("Число '"+number+"' четное");
-else
-    Console.Write("Число '"+number+"' нечетное");
+int i = 2;
+while (i <= number)
+{
+    Console.Write(i+"\t");
+    i += 2; // i = i + 1;
+}
